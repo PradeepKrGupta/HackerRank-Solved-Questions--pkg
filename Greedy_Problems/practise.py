@@ -39,6 +39,9 @@
 # print("The minimum sum is :",sum)
 
 
+n=3
+strval = f'{n}'
+if n%3==0:
+    newStr = strval *5
 
-list = [2, 3, 4]
-print(len(list))
+print(newStr)
